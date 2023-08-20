@@ -51,8 +51,8 @@ function Card(props: CardProps) {
 				</div>
 
 				<div className="flex space-x- flex-wrap justify-start overflow-hidden  px-3 py-1">
-					{props.skills.map((skill) => {
-            return <Chip text={skill} />
+					{props.skills.map((skill, index) => {
+            return <Chip text={skill} key={index} />
           })}
 				</div>
 			</div>
