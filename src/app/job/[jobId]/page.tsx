@@ -37,7 +37,7 @@ export default function Page({ params: { jobId } }: Params) {
 			})
 	}
 
-	useEffect(() => { getJob() }, [])
+	useEffect(() => { getJob() })
 
 	const skill = [
 		"Programming Languages",

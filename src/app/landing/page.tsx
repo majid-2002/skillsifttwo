@@ -113,12 +113,12 @@ export default function Landing() {
           </div>
         </nav>
         <main className="relative w-full h-full flex justify-center items-center flex-col">
-          <img alt="alt" className="absolute opacity-10" style={{ width: "50vw" }} src={"https://static.vecteezy.com/system/resources/previews/021/096/523/original/3d-icon-job-search-png.png"} />
+          <Image alt="alt" className="absolute opacity-10" style={{ width: "50vw" }} src={"https://static.vecteezy.com/system/resources/previews/021/096/523/original/3d-icon-job-search-png.png"} />
           <div className="absolute flex flex-col justify-center items-center">
             <p className="text-4xl font-bold">Final stop on job search.</p>
             <p className="text-lg mt-4 font-semibold">
               Upload your resume and get job recommendations based on
-              your skills. We'll send job applications on behalf of
+              your skills. We&aposll send job applications on behalf of
               you.
             </p>
             <label
