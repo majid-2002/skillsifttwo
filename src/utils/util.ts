@@ -1,3 +1,3 @@
-const serverURL = "http://localhost:6001";
+const serverURL = "http://157.245.90.253:6001";
 
 export { serverURL };
